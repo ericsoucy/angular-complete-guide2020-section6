@@ -3,8 +3,12 @@
 
   <div class="collapse navbar-collapse">
     <div class="navbar-nav">
-      <a href="#" class="nav-item nav-link" active>Recipes</a>
-      <a href="#" class="nav-item nav-link">Shopping List</a>
+      <a href="#" class="nav-item nav-link" (click)="onSelect('recipe')" active
+        >Recipes</a
+      >
+      <a href="#" class="nav-item nav-link" (click)="onSelect('shopping-list')"
+        >Shopping List</a
+      >
     </div>
     <div class="navbar-nav navbar-right">
       <div class="nav-item dropdown">
